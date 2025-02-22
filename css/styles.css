@@ -41,19 +41,4 @@ p {
     color: black;
 }
   
-  /* Add a color to the active/current link */
-.topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-}
-
-.topnav me:hover {
-    background-color: #ddd;
-    color: black;
-}
   
-  /* Add a color to the active/current link */
-.topnav me.active {
-    background-color: #04AA6D;
-    color: white;
-}
