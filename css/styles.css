@@ -24,6 +24,11 @@ p {
   /* link base style */
 .topnav h1.links {
     float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    text-decoration: none;
 }
 
 .topnav h1.name {
