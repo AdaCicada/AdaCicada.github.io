@@ -24,6 +24,7 @@ p {
     font-family: 'Neuropol';
     background-color: #333;
     overflow: hidden;
+    height: 10%;
 }
   
   /* link base style */
@@ -32,7 +33,7 @@ p {
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
-    font-size: 17px;
+    font-size: auto;
     text-decoration: none;
     font-weight: normal
 }
@@ -49,3 +50,7 @@ p {
 }
   /* Add a color to the active/current link */
 
+.topnav a.name:hover {
+    background-color:transparent;
+    color: #FFE8F1;
+}
