@@ -18,7 +18,7 @@ p {
 }
   
   /* link base style */
-.topnav me {
+.topnav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -26,14 +26,7 @@ p {
     text-decoration: none;
     font-size: 17px;
 }
-.topnav a {
-    float: right;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
+
   
 /* Change the color of links on hover */
 .topnav a:hover {
@@ -41,4 +34,9 @@ p {
     color: black;
 }
   
-  
+  /* Add a color to the active/current link */
+.topnav a.title {
+    float: left;
+    font-size: 30px;
+}
+
