@@ -1,14 +1,14 @@
+h1 {
+    font-family: verdana;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
 body {
     background-color: lightblue;
-}
-  
-h1 {
-    color: white;
-    text-align: left;
-    padding: 14px 16px;
-    font-weight: lighter;
-    font-family:Helvetica;
-    font-size: 34px;
 }
   
 p {
@@ -22,13 +22,13 @@ p {
 }
   
   /* link base style */
-.topnav a {
+.topnav h1.links {
     float: right;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+}
+
+.topnav h1.name {
+    float: left;
+    font-size: 34px;
 }
 
 /* Change the color of links on hover */
