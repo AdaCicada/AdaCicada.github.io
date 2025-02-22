@@ -1,5 +1,10 @@
+@font-face { font-family: Neuropol; src: url('../Resources/Neuropol.otf'); } 
+@font-face { font-family: Neuropol; font-weight: normal; src: url('../Resources/Neuropol.otf');}
+
 h1 {
-    font-family: verdana;
+    
+    float: left;
+    font-family: Neuropol;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -22,7 +27,7 @@ p {
 }
   
   /* link base style */
-.topnav h1.links {
+.topnav a {
     float: right;
     color: #f2f2f2;
     text-align: center;
@@ -31,7 +36,7 @@ p {
     text-decoration: none;
 }
 
-.topnav h1.name {
+.topnav a.name {
     float: left;
     font-size: 34px;
 }
