@@ -28,6 +28,7 @@ p {
   
   /* link base style */
 .topnav a {
+    font-family: Neuropol;
     float: right;
     color: #f2f2f2;
     text-align: center;
@@ -47,9 +48,4 @@ p {
     color: black;
 }
   /* Add a color to the active/current link */
-.topnav a:visited {
-    color: #f2f2f2;
-    background-color: transparent;
-    text-decoration: none;
-}
 
